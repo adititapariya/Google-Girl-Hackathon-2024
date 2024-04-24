@@ -1,6 +1,8 @@
 # Google-Girl-Hackathon-2024
 
-# Network on Chip (NOC) Optimization with Deep Q-Network (DQN)
+# ChipNet OptiFlow
+
+## Network on Chip (NOC) Optimization with Deep Q-Network (DQN)
 
 This project implements a Deep Q-Network (DQN) algorithm to optimize the Network on Chip (NOC) design within a System on Chip (SoC) environment. The goal is to achieve efficient performance in terms of latency, bandwidth, buffer utilization, and power consumption through reinforcement learning techniques.
 
