@@ -25,12 +25,18 @@ Key Features:
    ```
 
 2. Install dependencies
-   pip install -r requirements.txt
+
+   ```pip install -r requirements.txt
+
+   ```
 
 ## Usage
 
 1. Run the training script:
-   python src/train.py
+
+   ```python src/train.py
+
+   ```
 
 2. Monitor training progress:
    -The training script will train the DQN agent to optimize the NOC design.
@@ -38,7 +44,7 @@ Key Features:
 
 ## Project Structure
 
-NOC-Optimization-DQN/
+```NOC-Optimization-DQN/
 ├── src/
 │ ├── dqn_agent.py # DQN agent implementation
 │ ├── environment.py # NOC environment simulator
@@ -46,6 +52,8 @@ NOC-Optimization-DQN/
 ├── models/ # Directory for saving trained models
 ├── README.md # Project documentation and instructions
 └── requirements.txt # Python dependencies
+
+```
 
 1. src/: Contains Python scripts for DQN agent implementation and NOC environment simulator.
    -dqn_agent.py: Implementation of the DQN agent for reinforcement learning.
@@ -58,9 +66,11 @@ NOC-Optimization-DQN/
 
 ## Dependencies
 
-tensorflow==2.7.0
+```tensorflow==2.7.0
 numpy==1.21.5
 matplotlib==3.4.3
 scikit-learn==0.24.2
+
+```
 
 Ensure these dependencies are installed before running the project.
