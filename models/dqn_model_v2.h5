@@ -1,0 +1,16 @@
+#trained DQN model for inference
+import numpy as np
+
+def predict_action(model, state):
+    # Use the DQN model to predict the action based on the current state
+    q_values = model.predict(state)
+    action = np.argmax(q_values)
+    return action
+
+# Example usage with a sample state
+sample_state = np.array([0.2, 0.4, 0.6])  # Example state vector
+action_v1 = predict_action(dqn_model_v1, sample_state)
+action_v2 = predict_action(dqn_model_v2, sample_state)
+
+print("Predicted action using DQN model v1:", action_v1)
+print("Predicted action using DQN model v2:", action_v2)
