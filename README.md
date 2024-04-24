@@ -26,7 +26,8 @@ Key Features:
 
 2. Install dependencies
 
-   ```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
    ```
 
@@ -34,7 +35,8 @@ Key Features:
 
 1. Run the training script:
 
-   ```python src/train.py
+   ```bash
+   python src/train.py
 
    ```
 
@@ -52,7 +54,6 @@ Key Features:
 ├── models/ # Directory for saving trained models
 ├── README.md # Project documentation and instructions
 └── requirements.txt # Python dependencies
-
 ```
 
 1. src/: Contains Python scripts for DQN agent implementation and NOC environment simulator.
@@ -70,7 +71,6 @@ Key Features:
 numpy==1.21.5
 matplotlib==3.4.3
 scikit-learn==0.24.2
-
 ```
 
 Ensure these dependencies are installed before running the project.
